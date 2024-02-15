@@ -47,3 +47,10 @@ Help Adam gain confidence in further development by automatically testing the mo
 - Please submit a link to your finished repository when you are ready
 
 ## Good luck and happy coding! :)
+
+## -------------------------- ##
+
+## Instructions to run the tests
+
+- In project level use command line console and type 'yarn test'
+This will run the tests located in 'src\Tests\Smoke_Suite.test.js'

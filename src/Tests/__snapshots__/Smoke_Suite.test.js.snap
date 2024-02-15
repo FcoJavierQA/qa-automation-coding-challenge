@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Smoke Tests Validate initial elements displayed 1`] = `
+<div
+  className="app"
+  data-testid="main-app"
+>
+  <header>
+    <h1>
+      Get Github Repos
+    </h1>
+  </header>
+  <main>
+    <section
+      className="message-area"
+    />
+    <form
+      className="input-area"
+    >
+      <div
+        className="field-username"
+      >
+        <label
+          htmlFor="username"
+        >
+          Github Username
+        </label>
+        <input
+          id="username"
+          onChange={[Function]}
+        />
+      </div>
+      <button
+        className="submit"
+        onClick={[Function]}
+        type="submit"
+      >
+        Go
+      </button>
+    </form>
+    <section
+      className="output-area"
+    >
+      <p
+        className="output-status-text"
+      >
+        No repos
+      </p>
+    </section>
+  </main>
+</div>
+`;

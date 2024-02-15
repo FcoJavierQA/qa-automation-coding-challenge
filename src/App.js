@@ -25,9 +25,9 @@ const createFailureMessage = (message) => ({
 });
 
 function App() {
+  
   const [repos, setRepos] = useState([]);
-
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState();
   const [dataState, setDataState] = useState(LOADING_STATE.IDLE);
   const [message, setMessage] = useState(null);
 
@@ -85,7 +85,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div data-testid='main-app' className="app">
       <header>
         <h1>Get Github Repos</h1>
       </header>
